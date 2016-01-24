@@ -1,0 +1,30 @@
+(dp0
+S'phone_number'
+p1
+S'5645497'
+p2
+sS'city'
+p3
+S'Buenos Aires'
+p4
+sS'last_name'
+p5
+S'Iwan'
+p6
+sS'name'
+p7
+S'Andres'
+p8
+sS'country'
+p9
+S'Argentina'
+p10
+sS'address'
+p11
+S'Z 5'
+p12
+sS'email'
+p13
+S'andres.iwan@gmail.com'
+p14
+s.

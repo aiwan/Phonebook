@@ -1,0 +1,89 @@
+<!--Andres Iwan-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="../../favicon.ico">
+
+  <!--Fonts-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Pinyon+Script' rel='stylesheet' type='text/css'>
+
+  <!--Effects-->
+  <link href="css/hover.css" rel="stylesheet">
+
+  <title>Phonebook</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+<!-- Extra: column structure -->
+<!-- Container-fluid will take the whole screen and container just part of it ??  -->
+<div class="container">
+  <div class="row ">
+    <!-- 4 is for 4 columns from the 12 we have. Same with 8. -->
+    <!--LEFT Side-->
+    <div class="col-md-2">
+    </div>
+
+    <!--CENTER Side-->
+    <div class="col-md-8 phonebook-container" id="phonebookContainer">
+      <!--Title-->
+      <div id="phonebook-title" class="phonebook-title">Phonebook</div>
+
+      <!--Message-->
+      <div id="messages"></div>
+
+      <!--Buttons-->
+      <div class='button-container' id='buttonContainer'>
+        <button class='button fetch clickable hvr-grow' id='fetchButton'>Fetch</button>
+        <button class='button fa fa-plus plus clickable hvr-grow' id='plusButton'></button>
+        <button class='button closeB fa fa-close hidden clickable hvr-grow' id='closeButton'></button>
+        <button class='button fa fa-check check hidden clickable hvr-grow' id='checkButton'></button>
+      </div>
+
+    </div>
+
+    <!--RIGHT Side-->
+    <div class="col-md-2">
+    </div>
+
+  </div>
+</div>
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/util.js"></script>
+<script src="js/phonebook.js"></script>
+<script src="js/libs/jquery-2.2.0.min.js"></script>
+
+
+</body>
+</html>
